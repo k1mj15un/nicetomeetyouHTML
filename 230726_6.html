@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /*기본옵션*/
+            background-color: pink;
+            padding: 1rem;
+            display: inline-block;
+            animation-name: box;
+            animation-duration: 6s;
+        }
+            /*키프레임 애니메이션 살펴보기*/
+            @keyframes box{
+                0%{
+                    background-color: skyblue;
+                }
+                50%{
+                    background-color: pink;
+                }
+                100%{
+                    background-color: blue;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div>박스 색이 변하는 애니메이션 만들기</div>
+</body>
+</html>
